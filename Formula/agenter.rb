@@ -5,29 +5,29 @@ class Agenter < Formula
   desc "Agenter native CLI"
   homepage "https://github.com/jixoai/agenter"
   license "MIT"
-  version "0.0.9"
+  version "0.0.10"
 
   on_macos do
   on_arm do
-    url "https://github.com/jixoai/agenter/releases/download/v0.0.9/agenter-darwin-arm64.tar.gz"
-    sha256 "aa0e368c0ffea2012e9db74c4c8534ac353faa451d17474851c6d676475d3a69"
+    url "https://github.com/jixoai/agenter/releases/download/v0.0.10/agenter-darwin-arm64.tar.gz"
+    sha256 "0286767a91f0bc6c8bc9fd1e47cf9fd502d9f9ab5bc6fc9fc9c9a2b07336e007"
   end
 
   on_intel do
-    url "https://github.com/jixoai/agenter/releases/download/v0.0.9/agenter-darwin-x64.tar.gz"
-    sha256 "6477d7e0768302b21e8a60c06ae8c37b9c26e31317f3daf894668bcc4a494219"
+    url "https://github.com/jixoai/agenter/releases/download/v0.0.10/agenter-darwin-x64.tar.gz"
+    sha256 "6e6933eebc6246b4b5189ab3ca04566512b0c7d49fccff31a9a06eabae12a633"
   end
   end
 
   on_linux do
   on_arm do
-    url "https://github.com/jixoai/agenter/releases/download/v0.0.9/agenter-linux-arm64-gnu.tar.gz"
-    sha256 "022b982f99e33ab3c6006034dde6c1ae401613e3f3e9f5c485cb0fb349ab7dbc"
+    url "https://github.com/jixoai/agenter/releases/download/v0.0.10/agenter-linux-arm64-gnu.tar.gz"
+    sha256 "afe490ab94e37d8ee74fd98b82ee99bb112d934a0c15691b03172b9e4d460b97"
   end
 
   on_intel do
-    url "https://github.com/jixoai/agenter/releases/download/v0.0.9/agenter-linux-x64-gnu.tar.gz"
-    sha256 "b3d62090114da322b200b27e5c2d6168d3ce5f0721ef2783bcb89ae016ba2d76"
+    url "https://github.com/jixoai/agenter/releases/download/v0.0.10/agenter-linux-x64-gnu.tar.gz"
+    sha256 "2fecafc994b3e92e709ba550b81e01039e387d71fd9bc44b9fa7140426c9d2dd"
   end
   end
 
